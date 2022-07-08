@@ -1,2 +1,6 @@
 # Neuromorphic-Localisation-Microscopy
-Contains codes and example data for neuromorphic localisation microscopy
+
+Neuromorphic cameras(NM) are a novel class of sensors inspired by vision. Neuromorphic cameras record the rate of change of intensities unlike other cameras such as CCDs which detect intensities over a stipulated time period defined by the frame rate(fps). Additionally, these measurements in a NM are asynchronous with respect to pixels, that is, each pixel samples independently at a 1 microsecond resolution. Each recorded sampling is denoted by [t, x, y, p], that is, time stamp, x and y coordinates of the pixel, and the polarity. Here, polarity is the rate of change in intensity, that is +1 if the intensity has increase with respect to previous time stamp and -1 if it has reduced compared to the previous time stamp. We have demonstrated the use of such a neuromorphic vision sensor to image, localise and fluorescing single particles in the nanoscale regime at a subpixel accuracy and temporal precision of a few millisecond. DeepTrack a python based deep learning algorithm developed by Helgadottir et al.,2019, as well as PALMTracer, a wavelet transform algorithm, were used for localisation and tracking of single particles.
+
+Here, we have provided an example of neuromorphic data, codes to reconstruct images from the same, reconstructed image stacks, and DeepTrack based pipelines and codes for tracking and localisation along with instructions for use. A detailed overview of DeepTrack can be found at https://github.com/softmatterlab/DeepTrack
+
