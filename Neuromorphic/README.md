@@ -5,11 +5,11 @@
 &emsp;o	**out_dir**: Enter the directory where the tiff images must be saved.<br/>
 &emsp;o	**step_size**: Enter the timescale or window over which the accumulation or integration of event polarities must occur for each frame, thus defining the frame rate. This value should be entered in units of microseconds.<br/>
 &emsp;o	**rows, cols**: Enter the size of the image in terms of number of rows of pixels(rows), and coloumns of pixels(cols).<br/>
-<p align="center">![My Image](Neuromorphic/Picture1.png)<p/>
+<p align="center">![Picture1](Neuromorphic/Picture1.png)<p/>
 <p align="center">Fig 1: Snippet of input variables<p/>
 
 •	The code reads the *.aedat4file from the data_dir directory and generates frames by integrating the polarities over a defined timescale(step_size) for every pixel. The polarities are colour coded as green for positive polarity or ON process and red for negative polarity or OFF process. That is, for every positive polarity or ON process, the pixel value for that pixel will increase by one in the green channel, and for every negative polarity or OFF process, the pixel value of that pixel will increase by one in the red channel. This process is repeated for the duration of step_size or timescale, thereby producing an *.tif image frame of either 8-bit depth or 16 -bit(uint8 or uint16 respectively as shown in figure below) depth as defined by the user that is saved in the out_dir directory.
-<p align="center">![My Image](Neuromorphic/Picture2.png)<p/> 
+<p align="center">![Picture2](Neuromorphic/Picture2.png)<p/> 
 <p align="center">Fig 2: Snippet of choosing bit depth<p/>
 
 ### Using the given data
