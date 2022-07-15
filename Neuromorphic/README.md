@@ -13,10 +13,12 @@
 <p align="center">Fig 2: Snippet of choosing bit depth<p/>
 
 ### Using the given data
-•	Enter the file named 100ms-300mW-NM.aedat4 to the input data directory variable data_dir
-•	Enter step size as 100000
-•	Enter rows, cols and 260, 346
-•	Enter the desired output directory for out_dir variable
-•	The result should be a string of 212 *.tif images when stacked together should resemble the given file ON-OFF-100ms-300mW.tif
-•	On cropping out frames that see no particles, we are left with frames 3 to 197, and should resemble the given file ON-OFF-100ms-300mW-cropped.tif
-•	Alternate frames can be stacked together to create identical copies of files ON.tif and OFF.tif that can be further used to localise the particles in during the ON processes and OFF processes independently.
+•	Enter the file named 100ms-300mW-NM.aedat4 to the input data directory variable data_dir<br/>
+•	Enter step size as 100000<br/>
+•	Enter rows, cols and 260, 346<br/>
+•	Enter the desired output directory for out_dir variable<br/>
+•	The result should be a string of 212 *.tif images when stacked together should resemble the given file ON-OFF-100ms-300mW.tif<br/>
+•	On cropping out frames that see no particles, we are left with frames 3 to 197, and should resemble the given file ON-OFF-100ms-300mW-cropped.tif<br/>
+•	Alternate frames can be stacked together to create identical copies of files ON.tif and OFF.tif that can be further used to localise the particles in during the ON processes and OFF processes independently.<br/>
+
+The full list of files mentioned can be found at: https://drive.google.com/drive/folders/1wHOWVFHh5Mne2fg1DaEqdfcKOwFo8sc4?usp=sharing
